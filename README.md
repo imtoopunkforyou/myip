@@ -25,13 +25,13 @@ chmod +x myip.sh
 ## Usage
 - Simply run:
 ```bash
-./myip
+./myip.sh
 ```
 
 ## Alias Setup
 Add to your shell configuration (.bashrc/.zshrc):
 ```bash
-alias myip="/path/to/myip"
+alias myip="/path/to/myip.sh"
 ```
 
 ## Example output:
