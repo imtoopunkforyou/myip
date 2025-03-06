@@ -14,7 +14,7 @@ sudo apt install jq curl
 
 2. Download the script:
 ```bash
-curl -O TODO
+curl -O https://raw.githubusercontent.com/imtoopunkforyou/myip/refs/heads/main/myip.sh
 ```
 
 3. Make executable:
