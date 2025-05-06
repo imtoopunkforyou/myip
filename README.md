@@ -2,10 +2,6 @@
 Bash script to fetch IP address information.  
 To obtain information, a request will be sent to [ipinfo.io](https://ipinfo.io/)
 
-## Dependencies
-- `curl`
-- `jq`
-
 ## Installation
 1. Install Dependencies
 ```bash
@@ -34,12 +30,12 @@ Add to your shell configuration (.bashrc/.zshrc):
 alias myip="/path/to/myip.sh"
 ```
 
-## Example output:
-```
+## Example:
+```bash
+~ > myip  
 ┌─────────────────────────────┐
 │       IP Information        │
 └─────────────────────────────┘
-
 IP:           123.456.78.90
 Hostname:     null
 City:         CityName
